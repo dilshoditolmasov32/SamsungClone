@@ -1,0 +1,72 @@
+.product__cards {
+}
+
+.product__card {
+  width: 33.333%;
+  background-color: #f4f4f4;
+  color: #000;
+  border-radius: 20px;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.product__card:hover img {
+  transform: scale(1.03);
+}
+.product__card:hover .card-display {
+  display: none;
+  transition: 0.5s;
+}
+
+.product__card:hover .card-btn {
+  display: block;
+  transition: 0.5s;
+}
+
+.gaz_plita {
+  background-color: none;
+  border: none;
+}
+
+.product__card__desc {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 1.33;
+  padding-left: 50px;
+  padding-right: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.product__price {
+  color: #2189ff;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-price {
+  font-size: 14px;
+}
+
+.card-btn {
+  display: none;
+  background-color: #000;
+  font-size: 18px;
+  border-radius: 15px;
+  color: #fff;
+  padding: 8px 12px;
+  text-align: center;
+  margin: 0 auto;
+  transition: 0.6s;
+}
