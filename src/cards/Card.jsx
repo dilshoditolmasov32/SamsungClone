@@ -69,6 +69,7 @@ function Card() {
         <div className="card-price"> From ${value.price2}</div>
       </div>
       <button className="card-btn">{value.btn}</button>
+      <div className="product-news">new</div>
     </div>
   ));
 
